@@ -1,0 +1,18 @@
+{
+  "name": "tail-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/index.css -o public/css/tail.css"
+  },
+  "keywords": [],
+  "author": "Venkatesh.C",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "github:tailwindcss/typography"
+  }
+}
